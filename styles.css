@@ -81,3 +81,18 @@ button {
 .l::after{
     content: "TINK"
 }
+
+@media(max-width: 800px){
+    body{
+        min-height: 100vh;
+        background-position: center;
+    }
+    .logo {
+        font-size: 45px;
+    }
+    .drum {
+       display: grid;
+       grid-template-columns: repeat(3, 1fr);
+       grid-gap: 10px;
+    }
+}
